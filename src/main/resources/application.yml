@@ -1,0 +1,16 @@
+server:
+  port: 8686
+
+spring:
+  application:
+    name: coze-ai-assistant
+  # 开启虚拟线程（JDK 17 虽不支持，但如果你升级到 JDK 21 建议开启）
+  # threads:
+  #   virtual:
+  #     enabled: true
+
+# 自定义 Coze 配置
+coze:
+  api:
+    key: "sat_SpE3jfvl3PX5x3oIMSik1EryYSFF5KW7ie4192cyMa42a4A13Grm6RO6pZFA0Z7e"  # 替换为你的扣子个人访问令牌
+    bot-id: "7597004051574390824" # 替换为你的 Bot ID
